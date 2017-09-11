@@ -29,7 +29,7 @@ void MyGlDraw(void)
 		
 	DrawTriangle(512, 230, 0, 0, 400 ,0, color1, color2, color3); /* triangulo, x,y, de vertices (512, 0), (230, 400), (0,0)
 
-																e cores verde, vermelho e azul*/
+									e cores verde, vermelho e azul*/
 
 	PutPixel(0, 0, color1);	
 

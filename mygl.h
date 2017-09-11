@@ -70,7 +70,7 @@ void DrawLine(int x0, int x1, int y0, int y1, tRGBA color1, tRGBA color2){
 	bool dTroca = false, yTroca = false,xTroca = false;
 
 	if( abs(dy) > abs(dx) ){ /* Caso o dy seja maior que dx, trocamos os eixos y e x.
-							   Como trocamos os eixos, utilizamos a variável dTroca para inveter os eixos quando for renderizar.*/
+			Como trocamos os eixos, utilizamos a variável dTroca para inveter os eixos quando for renderizar.*/
 
 		aux0 = x0; 
 		aux1 = x1;
@@ -110,8 +110,8 @@ void DrawLine(int x0, int x1, int y0, int y1, tRGBA color1, tRGBA color2){
 	if(y0 > y1){ // caso dy seja negativo, pegamos seu oposto, fazendo dy = y0 - y1.
 		
 		y_1 = y0;
-					// Caso y0 seja > y1, a linha será renderizada pelo y_1 = y0, onde será 
-				   //decrementada até chegar no ponto realmente inicial
+					/* Caso y0 seja > y1, a linha será renderizada pelo y_1 = y0, onde será 
+				   	decrementada até chegar no ponto realmente inicial*/
 
 		aux0 = y0;
 		aux1 = y1;
@@ -162,7 +162,8 @@ void DrawLine(int x0, int x1, int y0, int y1, tRGBA color1, tRGBA color2){
 
 		}
 
-		if(dTroca == true){  // Se dy > dx, trocamos as coordenadas, e,consequentemente, mudamos as coordenadas ao renderizar.
+		if(dTroca == true){  /* Se dy > dx, trocamos as coordenadas, e,consequentemente, mudamos as coordenadas ao 
+					renderizar.*/
 
 			PutPixel(y, x, Interpolacao(color1, color2, dx));
 
@@ -179,7 +180,7 @@ void DrawLine(int x0, int x1, int y0, int y1, tRGBA color1, tRGBA color2){
 
 }
 
-// Função que redenriza um triângulo na tela.
+// Função que renderiza um triângulo na tela.
 
 void DrawTriangle(int x1, int x2, int x3, int y1, int y2, int y3, tRGBA color1, tRGBA color2, tRGBA color3){
 

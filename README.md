@@ -1,6 +1,7 @@
 # pollux
 
-![Triangles](/TrabalhoIndividual1/images/triangle.png)
+![Triangles](/pollux/imagens/Captura de tela de 2017-09-10 22-49-59.png
+)
 
   Trabalho 1 da disciplina de Computação Gráfica. Neste trabalho, fomos desafiados a fazer quatro funções que renderizasse alguns pixels na tela. 
   A PutPixel, função mais utilizada, já que ela renderiza o pixel na tela; a função DrawLine que foi a mais complicada, onde tem o papel de desenhar uma reta; e finalizamos com a DrawTriangle, função que renderiza um triangulo na tela. Também fizemos a Interpolação de cores de cada ponto da reta. 

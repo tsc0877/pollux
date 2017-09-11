@@ -1,6 +1,6 @@
 # pollux
 
-![Triangles](/pollux/imagens/Captura de tela de 2017-09-10 22-49-59.png
+![Imagem](/pollux/imagens/Capturade tela de 2017-09-10 22-49-59.png
 )
 
   Trabalho 1 da disciplina de Computação Gráfica. Neste trabalho, fomos desafiados a fazer quatro funções que renderizasse alguns pixels na tela. 
